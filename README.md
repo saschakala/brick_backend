@@ -1,24 +1,26 @@
-# README
+# Brick
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[access frontend repo](https://github.com/saschakala/brick_frontend)
 
-Things you may want to cover:
+## Your favorite childhood game
 
-* Ruby version
+Your favorite 2D childhood game re-imagined with the perfect retro neon aesthetic and the ability to save scores.
 
-* System dependencies
 
-* Configuration
+## Future plans
+To deploy on Heroku and Netlify.
 
-* Database creation
 
-* Database initialization
+## Install guide
+- clone the front and back end repo
+- cd into the brick_backend directory and start the rails server in your command line by running `rails s`
+- cd into the brick_frontend directory and kick off the game by running ` open index.html ` or `npx reload - b` to run a hot reload through Node.js
+- win!
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+## Contributor's Guide
+Bug reports and pull requests are welcome.
 
-* Deployment instructions
 
-* ...
+## Licencing Statement
+This code is licenced under the [MIT Open Source Public License](https://opensource.org/licenses/MIT).
