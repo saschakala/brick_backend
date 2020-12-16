@@ -15,9 +15,6 @@ class Api::V1::GamesController < ApplicationController
         end
     end
 
-    # def destroy
-    # end
-
     private
 
     def game_params
