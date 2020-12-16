@@ -6,7 +6,7 @@ class Game < ApplicationRecord
   end
 
   def user_name
-    self.username ? self.user.name ? :nil
+    self.username ? self.user.name : :nil
   end
 
 end
