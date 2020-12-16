@@ -7,8 +7,9 @@ class Api::V1::GamesController < ApplicationController
     
     def create
         game = Game.new(game_params)
+        debugger
         if game.save
-            render json: game, status: :accepted #use serializer?
+            render json: GameSerializer.new(game), status: :accepted
         else
             render json: {errors: game.errors.full_messages}, status: :unprocessible_entity
         end
@@ -20,7 +21,7 @@ class Api::V1::GamesController < ApplicationController
     private
 
     def game_params
-        params.require(:game).permit(:score, :user_id)
+        params.require(:game).permit(:score, :name)
     end
 
 
