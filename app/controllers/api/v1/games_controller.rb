@@ -21,7 +21,7 @@ class Api::V1::GamesController < ApplicationController
     private
 
     def game_params
-        params.require(:game).permit(:score, :name)
+        params.require(:game).permit(:score, :user_name)
     end
 
 
