@@ -13,9 +13,8 @@ Game.destroy_all
     User.create(name: Faker::Name.name_with_middle)
 end
 
-Game.create(score: 18, user_id: 17)
-Game.create(score: 16, user_id: 18)
-Game.create(score: 15, user_id: 19)
-Game.create(score: 13, user_id: 20)
-Game.create(score: 8, user_id: 21)
-
+Game.create(score: 18, user_id: 22)
+Game.create(score: 16, user_id: 23)
+Game.create(score: 15, user_id: 24)
+Game.create(score: 13, user_id: 25)
+Game.create(score: 8, user_id: 26)
