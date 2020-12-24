@@ -1,7 +1,7 @@
 class Api::V1::GamesController < ApplicationController
 
     def index
-        games = Game.all
+        games = Game.game_sort
         render json: GameSerializer.new(games)
     end
     
