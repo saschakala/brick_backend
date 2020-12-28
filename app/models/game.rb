@@ -17,4 +17,9 @@ class Game < ApplicationRecord
     end
   end
 
+  def self.game_sort
+    self.all.sort_by {|game| -game.score}
+  end
+
+
 end
